@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc Mừng 20/10 Hoài </title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="falling-container">
+        <div class="petal"></div><div class="petal"></div><div class="petal"></div>
+        <div class="petal"></div><div class="petal"></div><div class="petal"></div>
+        <div class="petal"></div><div class="petal"></div><div class="petal"></div>
+        <div class="petal"></div><div class="petal"></div><div class="petal"></div>
+    </div>
+
+    <div class="card-container" id="cardContainer">
+        <div class="card-closed">
+            <div class="decorations">
+                <p class="title">Gửi Hoài
+                <p class="instruction">Bấm vào đây nhé!</p>
+            </div>
+        </div>
+
+        <div class="card-opened">
+            
+            
+            <div class="letter-content">
+                <h2>Gửi Hoài,</h2>
+                <p>
+                    Nhân ngày Phụ nữ Việt Nam 20/10, chúc Hoài có một ngày 20-11 vui vẻ và tràn ngập niềm vui. Chúc Hoài luôn ngày càng hoàn thiện, ngày càng thành công trong công việc làm cô giáo của mình. Chúc cho dự án của Hoài sẽ có thể thành công hết mức có thể và nhớ là phải có giải nha.Hơn hết là giữ gìn sức khỏe nhé!
+                <p class="signature">
+                    Chúc Hoài 20-10 luôn luôn vui vẻ.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const cardContainer = document.getElementById('cardContainer');
+        cardContainer.addEventListener('click', () => {
+            cardContainer.classList.toggle('opened');
+        });
+    </script>
+
+</body>
+</html>
